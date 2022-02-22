@@ -1,0 +1,84 @@
+.container {
+    background-color: salmon;
+    width: 1000px;
+    height: 720px;
+    margin:auto;
+    align-content: center;
+
+}
+
+.caixa{
+    width: 980px;
+    height: 80px;
+    align-content: center;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+.caixa2{
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    align-content: center;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+.caixa3 {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 10px;
+    align-content: center;
+    box-sizing: border-box;
+    font-size: 50px;
+    display: flex;
+    flex-basis: content;
+    
+
+}
+
+.caixa4{
+    width: 980px;
+    height: 80px;
+    align-content: center;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+
+.flexbox {
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    display: flex;
+}
+
+.flexdiredction {
+    display: flex;
+
+}
+
+.item1 {
+    justify-content: center;
+    margin: auto;
+    margin-inline: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    border-style:none;
+    font-size: 20px; 
+    
+
+}
+
