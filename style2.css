@@ -8,8 +8,10 @@ button{
     width: 80px;
     height: 50px;
     box-shadow: black;
-    color: black;
+    color: rgb(255, 255, 255);
     box-sizing: 10px;
+    background-color: #250125;
+    border-radius: 10px 0px 10px 0px;
 }
 @font-face {
     font-family: PressStart2P-Regular;
@@ -43,6 +45,7 @@ footer {
     width: 90%;
     height: 30px;
     margin: 0 auto;
+    
     box-sizing: border-box;
     border-radius: 5px;
     background-size: 20px;
@@ -91,6 +94,18 @@ h1{
     background-color: blue;
     border-radius: 5px;
     margin-right: 10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#023c5e), to(#1a81c5));
+    background: -moz-linear-gradient(top, #CCCCCC, #000000);
+    border-radius: 5px;
+    border-style: double;
+    border-color: #1a81c5;
+}
+
+.img-c{
+    width: 100px;
+    height: 100px;
+
+
 }
 
 .box-principal{
@@ -98,6 +113,7 @@ h1{
     margin: 0 auto;
     padding:30px;
     text-align: center;
+    
 }
 
 .form-flex-container {
